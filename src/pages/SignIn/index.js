@@ -27,7 +27,7 @@ class SignIn extends Component {
       } catch (err) {
         this.setState({
           error:
-            "Houve um problema com o login, verifique suas credenciais. T.T"
+            "Houve um problema com o login, verifique suas credenciais. "
         });
       }
     }
@@ -37,7 +37,6 @@ class SignIn extends Component {
     return (
       <Container>
         <Form onSubmit={this.handleSignIn}>
-          <img src={Logo} alt="Airbnb logo" />
           {this.state.error && <p>{this.state.error}</p>}
           <input
             type="email"
