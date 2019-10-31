@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "express": "^4.16.2",
-    "mongoose": "^5.5.12"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "concurrently": "^3.6.1"
